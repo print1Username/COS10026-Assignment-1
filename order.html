@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cactus Succulent Kuching</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Steve Nge, Goh Teng Yong, Wong Xuan Yong, Ivan Hon, Zainab">
+        <meta name="description" content="Beautiful Cactus in Kuching"/> 
+        <meta name="keywords" content="Succulent, Kuching, Cactus, Kuching"/> 
+		<link rel="icon" type="image/png" href="images/logo2.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<header>
+            <table class="table_header">
+                <tr>
+                    <th><a href="index.html"><img src="images/logo.png" alt="Home Logo" class="image_header"></a></th>
+                    <td>    
+						<div class="dropdown">
+							<button class="dropbtn"><a href="product.html" class="link_header">Product</a></button>
+								<div class="dropdown-content">
+									<a href="succulent.html" class="link_button">Cactus</a>
+									<a href="pots.html" class="link_button">Pots</a>
+									<a href="tools.html" class="link_button">Tools</a>
+									<a href="others.html" class="link_button">Others</a>
+								</div>
+					    </div>
+					</td>
+                    <td><a href="registration.html" class="link_header">Registration</a></td>
+                    <td><a href="order.html" class="link_header">Order</a></td>
+                    <td>
+                        <div class="dropdown">
+                        <button class="dropbtn"><a href="aboutus.html" class="link_header">Group</a></button>
+                            <div class="dropdown-content">
+                                <a href="profile_1.html" class="link_button">XuanYong</a>
+                                <a href="profile_2.html" class="link_button">Zainab</a>
+                                <a href="profile_3.html" class="link_button">Steve</a>
+                                <a href="profile_4.html" class="link_button">TengYong</a>
+                                <a href="profile_5.html" class="link_button">Ivan</a>
+                            </div>
+                        </div>
+                    </td>
+
+					<td><a href="enhancement.html" class="link_header">Enhancement</a></td>
+                </tr>
+            </table>
+        </header>
+		
+		<article class="order_article">
+			<h1 class="order_h1">Place Your Order</h1>
+			<div class="order_div">
+				<form action="mailto:102773249@students.swinburne.edu.my" method="post" id="order" class="order_form">
+					<br>
+					<p>
+						<label for="first_name" class="order_word">First Name:</label>
+						<input type="text" name="first_name" id="first_name" placeholder="Please fill in your first name" required="required" pattern="^[a-zA-Z]+$" maxlength="20">
+					</p>
+
+					<p>
+						<label for="last_name" class="order_word">Last Name:</label>
+						<input type="text" name="last_name" id="last_name" placeholder="Please fill in your last name" required="required" pattern="^[a-zA-Z]+$" maxlength="20">
+					</p>
+
+					<p class="order_word">Product:</p>
+
+					<table>
+						<tr>
+							<th>Succulents</th>
+							<th>Pots</th>
+							<th>Tools</th>
+							<th>Others</th>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="ChristmasCactus" name="ChristmasCactus" value="ChristmasCactus" checked="checked">
+								<label for="ChristmasCactus" class="order_word2">Christmas Cactus</label>
+							</td>
+							<td><input type="checkbox" id="CoirPot" name="CoirPot" value="CoirPot" checked="checked">
+								<label for="CoirPot" class="order_word2">Coir Pot</label>
+							</td>
+							<td><input type="checkbox" id="Gloves" name="Gloves" value="Gloves" checked="checked">
+								<label for="Gloves" class="order_word2">Gloves</label>
+							</td>
+							<td><input type="checkbox" id="Soil" name="Soil" value="Soil" checked="checked">
+								<label for="Soil" class="order_word2">Soil</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="FairyCastleCactus" name="FairyCastleCactus" value="FairyCastleCactus">
+								<label for="FairyCastleCactus" class="order_word2">Fairy Castle Cactus</label>
+							</td>
+							<td><input type="checkbox" id="CeramicPot" name="CeramicPot" value="CeramicPot">
+								<label for="CeramicPot" class="order_word2">Ceramic Pot</label>
+							</td>
+							<td><input type="checkbox" id="PruningShears" name="PruningShears" value="PruningShears">
+								<label for="PruningShears" class="order_word2">Pruning Shears</label>
+							</td>
+							<td><input type="checkbox" id="Fertilizer" name="Fertilizer" value="Fertilizer">
+								<label for="Fertilizer" class="order_word2">Fertilizer</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="StarCactus" name="StarCactus" value="StarCactus">
+								<label for="StarCactus" class="order_word2">StarCactus</label>
+							</td>
+							<td><input type="checkbox" id="TerracottaPot" name="TerracottaPot" value="TerracottaPot">
+								<label for="TerracottaPot" class="order_word2">Terracotta Pot</label>
+							</td>
+							<td><input type="checkbox" id="Loppers" name="Loppers" value="Loppers">
+								<label for="Loppers" class="order_word2">Loppers</label>
+							</td>
+							<td><input type="checkbox" id="Stone" name="Stone" value="Stone">
+								<label for="Stone" class="order_word2">Stone</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="OldLadyCactus" name="OldLadyCactus" value="OldLadyCactus">
+								<label for="Old Lady Cactus" class="order_word2"> Old Lady Cactus</label>
+							</td>
+							<td><input type="checkbox" id="PlasticPot" name="PlasticPot" value="PlasticPot">
+								<label for="PlasticPot" class="order_word2">PlasticPot</label>
+							</td>
+							<td><input type="checkbox" id="GardenFork" name="product_2" value="GardenFork">
+								<label for="GardenFork" class="order_word2">Garden Fork</label>
+							</td>
+							<td><input type="checkbox" id="Insecticides" name="Insecticides" value="Insecticides">
+								<label for="Insecticides" class="order_word2">Insecticides</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="MoonCactus" name="MoonCactus" value="MoonCactus">
+								<label for="MoonCactus" class="order_word2">Moon Cactus</label>
+							</td>
+							<td><input type="checkbox" id="WoodPot" name="WoodPot" value="WoodPot">
+								<label for="WoodPot" class="order_word2">Wood Pot</label>
+							</td>
+							<td><input type="checkbox" id="HandTrowel" name="product_2" value="HandTrowel">
+								<label for="HandTrowel" class="order_word2">Hand Trowel</label>
+							</td>
+							<td><input type="checkbox" id="MiniPoolTower" name="MiniPoolTower" value="MiniPoolTower">
+								<label for="MiniPoolTower" class="order_word2">Mini Pool Tower</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="GoldLaceCactus" name="GoldLaceCactus" value="GoldLaceCactus">
+								<label for="GoldLaceCactus" class="order_word2">Gold Lace Cactus</label>
+							</td>
+							<td><input type="checkbox" id="MetalPot" name="MetalPot" value="MetalPot">
+								<label for="MetalPot" class="order_word2">Metal Pot</label>
+							</td>
+							<td><input type="checkbox" id="Spade" name="product_2" value="Spade">
+								<label for="Spade" class="order_word2">Spade</label>
+							</td>
+							<td><input type="checkbox" id="GardenGate" name="GardenGate" value="GardenGate">
+								<label for="GardenGate" class="order_word2">Garden Gate</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="TheOldManCactus" name="TheOldManCactus" value="TheOldManCactus">
+								<label for="TheOldManCactus" class="order_word2">The Old Man Cactus</label>
+							</td>
+							<td><input type="checkbox" id="ConcretePot" name="ConcretePot" value="ConcretePot">
+								<label for="ConcretePot" class="order_word2">Concrete Pot</label>
+							</td>
+							<td><input type="checkbox" id="Rake" name="product_2" value="Rake">
+								<label for="Rake" class="order_word2">Rake</label>
+							</td>
+							<td><input type="checkbox" id="GlassTerrarium" name="GlassTerrarium" value="GlassTerrarium">
+								<label for="GlassTerrarium" class="order_word2">GlassTerrarium</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="HedgehogCactus" name="HedgehogCactus" value="HedgehogCactus">
+								<label for="HedgehogCactus" class="order_word2">Hedgehog Cactus</label>
+							</td>
+							<td><input type="checkbox" id="StonePot" name="StonePot" value="StonePot">
+								<label for="StonePot" class="order_word2">Stone Pot</label>
+							</td>
+							<td><input type="checkbox" id="Hoe" name="Hoe" value="Hoe">
+								<label for="Hoe" class="order_word2">Hoe</label>
+							</td>
+							<td><input type="checkbox" id="SolarLights" name="SolarLights" value="SolarLights">
+								<label for="SolarLights" class="order_word2">Solar Lights</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="BeehiveCactus" name="BeehiveCactus" value="BeehiveCactus">
+								<label for="BeehiveCactus" class="order_word2">Beehive Cactus</label>
+							</td>
+							<td><input type="checkbox" id="FairyCastleCactus" name="BasketsPot" value="BasketsPot">
+								<label for="BasketsPot" class="order_word2">BasketsPot</label>
+							</td>
+							<td><input type="checkbox" id="GardenHose" name="GardenHose" value="GardenHose">
+								<label for="GardenHose" class="order_word2">Garden Hose</label>
+							</td>
+							<td><input type="checkbox" id="MushroomDecor" name="MushroomDecor" value="MushroomDecor">
+								<label for="MushroomDecor" class="order_word2">Mushroom Decor</label>
+							</td>
+						</tr>
+
+						<tr>
+							<td><input type="checkbox" id="PowderPuffCactus" name="PowderPuffCactus" value="PowderPuffCactus">
+								<label for="PowderPuffCactus" class="order_word2">Powder Puff Cactus</label>
+							</td>
+							<td>
+							</td>
+							<td><input type="checkbox" id="WateringWand" name="WateringWand" value="WateringWand">
+								<label for="WateringWand" class="order_word2">Watering Wand</label>
+							</td>
+							<td><input type="checkbox" id="TeaPot" name="TeaPot" value="TeaPot">
+								<label for="TeaPot" class="order_word2">Tea Pot</label>
+							</td>
+						</tr>
+					</table>
+
+					<p class="order_word">Delivery Mode:</p>
+						<input type="radio" id="air_transportation" name="transportation" value="Air_Transportation" checked="checked">
+						<label for="air_transportation" class="order_word2">Air Transportation</label>
+
+						<input type="radio" id="sea_transportation" name="transportation" value="Sea_Transportation">
+						<label for="sea_transportation" class="order_word2">Sea Transportation</label>
+
+						<input type="radio" id="land_transportation" name="transportation" value="Land_Transportation">
+						<label for="land_transportation" class="order_word2">Land Transportation</label>
+
+					<p>
+						<label for="payment" class="order_word">Payment Mode:</label>
+						<select id="payment" name="payment">
+							<option value="credit_card">Credit Card</option>
+							<option value="debit_card">Debit Card</option>
+							<option value="paypal">Paypal</option>
+						</select>
+					</p>
+
+					<!--promo code-->
+					<p>
+						<label for="promo_code" class="order_word">Promo code:</label>
+						<input type="text" name="promo_code" id="promo_code" placeholder="Please fill in your promo code" pattern="^[a-zA-Z]+$" maxlength="10">
+					</p>
+
+					<!--Price-->
+
+					<p class="order_word">
+						Total Price:
+					</p>
+
+					<p>
+						<input type="submit" value="Submit Order">
+						<input type="reset" value="Cancel">
+					</p>
+				</form>
+			</div>
+		</article>
+		
+		<footer>
+			<div class="footer_line_container">
+				<img src="images/images_footer.jpg" alt="Footer line" class="footer_line_pic">
+			</div>
+			
+            <div class="footer">
+                <div class="footer-box">
+                    <div class="row">
+                        <div class="footer-col-2">
+                            <img src="images/logo.png" alt="logo" class="footer-image">
+                            <p>Let us help you add a touch of the desert to your home or office with our range of exquisite cacti.</p>
+                        </div>
+                        <div class="footer-col-3">	
+                            <h3><a href="product.html">Product</a></h3>
+                            <ul>
+                                <li><a href="succulent.html">Succulents</a></li>
+                                <li><a href="pots.html">Pots</a></li>
+                                <li><a href="tools.html">Tools</a></li>
+                                <li><a href="others.html">Others</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Useful Links</h3>
+                            <ul>
+								<li><a href="index.html">Home</a></li>
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="order.html">Order</a></li>
+                                <li><a href="registration.html">Registration</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+				<div class="social-media">
+					<a href="https://www.facebook.com/cactisucculentkch/" target="_blank">
+						<i class="fab fa-facebook"></i>
+						<img src="images/facebook.png" alt="facebook Icon">
+					</a>
+					<a href="https://www.youtube.com/@SucculentsBox" target="_blank">
+						<img src="images/youtube.png" alt="YouTube Icon">
+					 </a>
+					<a href="https://www.whatsapp.com/" target="_blank">
+						<img src="images/whatsapp.png" alt="WhatsApp">
+					</a>
+				</div>
+				
+            </div>
+
+            <p class="footer-disclaimer">Disclaimer: This website is created for education and non-commercial use only. It is an assignment for completion of unit, COS10026 Computing Technology Inquiry Project for Degree (Computer Science) course from Swimburne University of Technology Sarawak Campus.</p>
+        </footer>
+		
+	</body>
+</html>

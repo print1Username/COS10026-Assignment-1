@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content=" Cacti-Succulent Kuching ">
+    <meta name="keywords" content="Cactus, Sell">
+    <meta name="author" content="Steve Nge, Goh Teng Yong, Wong Xuan Yong, Ivan Hon, Zainab">
+    <link rel="icon" type="image/png" href="images/logo2.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> Cacti-Succulent Kuching </title>
+</head>
+
+<body class="registration_body">
+    <!--Navigation Bar-->
+	<header>
+		<table class="table_header">
+			<tr>
+				<th><a href="index.html"><img src="images/logo.png" alt="Home Logo" class="image_header"></a></th>
+				<td>    
+					<div class="dropdown">
+						<button class="dropbtn"><a href="product.html" class="link_header">Product</a></button>
+							<div class="dropdown-content">
+								<a href="succulent.html" class="link_button">Cactus</a>
+								<a href="pots.html" class="link_button">Pots</a>
+								<a href="tools.html" class="link_button">Tools</a>
+								<a href="others.html" class="link_button">Others</a>
+							</div>
+					</div>
+				</td>
+				<td><a href="registration.html" class="link_header">Registration</a></td>
+				<td><a href="order.html" class="link_header">Order</a></td>
+				<td>
+					<div class="dropdown">
+					<button class="dropbtn"><a href="aboutus.html" class="link_header">Group</a></button>
+						<div class="dropdown-content">
+							<a href="profile_1.html" class="link_button">XuanYong</a>
+							<a href="profile_2.html" class="link_button">Zainab</a>
+							<a href="profile_3.html" class="link_button">Steve</a>
+							<a href="profile_4.html" class="link_button">TengYong</a>
+							<a href="profile_5.html" class="link_button">Ivan</a>
+						</div>
+					</div>
+				</td>
+
+				<td><a href="enhancement.html" class="link_header">Enhancement</a></td>
+			</tr>
+		</table>
+	</header>
+
+	<article class="registration_article">
+		<br>
+		<br>
+		<h1>Customer Registration</h1>
+		<br>
+		<div class="registration_div">
+			<form id="register" method="post" action="mailto:102773249@students.swinburne.edu.my" class="registration">
+				<fieldset class="registration_fieldset">
+					<legend>User Information</legend>
+					<p class="register_form">
+						<label for="first_name">First Name:</label>
+						<input type="text" name="first_name" id="first_name" placeholder="Please fill in your first name" required="required" pattern="^[a-zA-Z]+$" maxlength="20">
+					</p>
+
+					<p class="register_form">
+						<label for="last_name">Last Name:</label>
+						<input type="text" name="last_name" id="last_name" placeholder="Please fill in your last name" required="required" pattern="^[a-zA-Z]+$" maxlength="20">
+					</p>
+
+					<p class="register_form">
+						<label for="age">Age:</label>
+						<input type="date" name="age" id="age" required="required">
+					</p>
+
+					<p class="register_form">
+						<label for="email">Email Address:</label>
+						<input type="email" name="email" id="email" placeholder="name@domain.com" required="required">
+					</p>
+				</fieldset>
+
+				<fieldset class="registration_fieldset">
+					<legend>User Address</legend>
+					<p class="register_form">
+						<label for="street_address">Street Address:</label>
+						<input type="text" name="street_address" id="street_address" placeholder="Please fill in you street address" required="required" maxlength="40">
+					</p>
+
+					<p class="register_form">
+						<label for="city">City/Town:</label>
+						<input type="text" name="city" id="city" placeholder="Please fill in your city" required="required" maxlength="20">
+					</p>
+
+					<p class="register_form">
+						<label for="state">State</label>
+						<select name="state" id="state" required="required">
+							<option value="sarawak">Sarawak</option>
+							<option value="sabah">Sabah</option>
+							<option value="labuan">labuan</option>
+							<option value="johor">Johor</option>
+							<option value="melaka">Melaka</option>
+							<option value="negeri_sembilan">Negeri Sembilan</option>
+							<option value="selangor">Selangor</option>
+							<option value="pahang">Pahang</option>
+							<option value="perak">Perak</option>
+							<option value="terengganu">Terengganu</option>
+							<option value="kelantan">Kelantan</option>
+							<option value="penang">Penang</option>
+							<option value="kedah">Kedah</option>
+							<option value="perlis">Perlis</option>
+						</select>
+					</p>
+
+					<p class="register_form">
+						<label for="postcode">Postcode</label>
+						<input type="text" name="postcode" id="postcode" placeholder="12345" pattern="\d{5}" required="required">
+					</p>
+				</fieldset>
+
+				<fieldset class="registration_fieldset">
+					<legend>User Contact</legend>
+					<p class="register_form">
+						<label for="phone_number">Phone number:</label>
+						<input type="tel" name="phone_number" id="phone_number" placeholder="123-456-6789" required="required" pattern="\d{1,10}>">
+					</p>
+				</fieldset>
+					<p class="registration_submit">
+						<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+					</p>
+			</form>
+		</div>
+	</article>
+	
+	<footer>
+		<div class="footer_line_container">
+			<img src="images/images_footer.jpg" alt="Footer line" class="footer_line_pic">
+		</div>
+		
+		<div class="footer">
+			<div class="footer-box">
+				<div class="row">
+					<div class="footer-col-2">
+						<img src="images/logo.png" alt="logo" class="footer-image">
+						<p>Let us help you add a touch of the desert to your home or office with our range of exquisite cacti.</p>
+					</div>
+					<div class="footer-col-3">	
+						<h3><a href="product.html">Product</a></h3>
+						<ul>
+							<li><a href="succulent.html">Succulents</a></li>
+							<li><a href="pots.html">Pots</a></li>
+							<li><a href="tools.html">Tools</a></li>
+							<li><a href="others.html">Others</a></li>
+						</ul>
+					</div>
+					<div class="footer-col-4">
+						<h3>Useful Links</h3>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+							<li><a href="order.html">Order</a></li>
+							<li><a href="registration.html">Registration</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="social-media">
+				<a href="https://www.facebook.com/cactisucculentkch/" target="_blank">
+					<i class="fab fa-facebook"></i>
+					<img src="images/facebook.png" alt="facebook Icon">
+				</a>
+				<a href="https://www.youtube.com/@SucculentsBox" target="_blank">
+					<img src="images/youtube.png" alt="YouTube Icon">
+				 </a>
+				<a href="https://www.whatsapp.com/" target="_blank">
+					<img src="images/whatsapp.png" alt="WhatsApp">
+				</a>
+			</div>
+			
+		</div>
+
+		<p class="footer-disclaimer">Disclaimer: This website is created for education and non-commercial use only. It is an assignment for completion of unit, COS10026 Computing Technology Inquiry Project for Degree (Computer Science) course from Swimburne University of Technology Sarawak Campus.</p>
+
+	</footer>
+	</body>
+</html>
