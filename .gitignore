@@ -1,0 +1,49 @@
+# Documents and text files
+*.txt
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.csv
+*.ppt
+*.pptx
+*.rtf
+*.odt
+*.ods
+*.odp
+~$*
+
+# Keep the project's image attribution file
+!images/Images References.txt
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Editor, operating system, and log files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
